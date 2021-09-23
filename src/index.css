@@ -101,3 +101,9 @@ main {
   display: table;
   clear: both;
 }
+
+/* portfolio starts here */
+
+img.img-thumbnail.mx-1 {
+  width: 15%;
+}

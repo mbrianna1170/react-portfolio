@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    font-family: "Inter", sans-serif !important;
+}
+
+:root {
+    --primary-black: #2c2b30;
+    --primary-gray: #ececec;
+    --primary-blue: #5da2d5;
+    --primary-yellow: #fcd250;
+    --primary-pink: #f78888;
+    --secondary-blue: #90ccf4;
+    --secondary-black: rgba(225, 225, 225, 0);
+}
+
+/***NAV BAR STARTS HERE***/
+/* modified navbar color*/
+.navbar {
+    background-color: var(--primary-gray);
+    padding: 0.5% !important;
+}
+
+/*navbar links*/
+nav a.nav-link {
+    font-size: 20px;
+}
+
+.navbar-nav > li > a {
+    margin-left: 0.75;
+    margin-right: 0.75;
+    color: var(--primary-black) !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+    border-top: 0.1875rem solid var(--primary-pink);
+}
