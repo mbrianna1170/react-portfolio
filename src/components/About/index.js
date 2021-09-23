@@ -1,11 +1,12 @@
 import React from 'react';
-import coverImage from '../../assets/cover/cover-image.jpg'
+import profilePic from "../../assets/images/profile-image2.png";
 
 function About() {
   return (
     <section className="my-5">
-      <h1 id="about">About Me</h1>
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+      <h1 id="about">Hello There</h1>
+      <p></p>
+      <img src={profilePic} className="profile-picture" alt="profile of person" />
     </section>
   );
 }
