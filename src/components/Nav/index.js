@@ -25,10 +25,12 @@ function Nav() {
             </a>
           </li>
           <li>
-            <span onClick={() => handleClick()}>Projects</span>
+            <span onClick={() => handleClick()}>Portfolio</span>
+          </li>
+          <li>
+            <span onClick={() => handleClick()}>Resume</span>
           </li>
         </ul>
-        <button className="contact-btn">Let's Talk</button>
       </nav>
     </header>
   );
