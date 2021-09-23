@@ -57,14 +57,20 @@ button.contact-btn {
   border: none;
   padding: 5px 22px;
   font-size: 20px;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .profile-picture {
   border-radius: 50%;
-  width: 100%;
+  width: 90%;
 }
 
 /* About Me Section */
+
+main {
+  padding-top: 1%;
+}
 
 .row {
   background-color: #fcd250;
@@ -78,6 +84,16 @@ button.contact-btn {
 .column-2 {
   float: left;
   width: 70%;
+  margin-top: 10%;
+}
+
+.column-2 h2 {
+  margin-left: 5%;
+}
+
+.column-2 p {
+  margin-left: 5%;
+  font-size: 20px;
 }
 
 .row:after {
