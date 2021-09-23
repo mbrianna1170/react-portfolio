@@ -16,6 +16,10 @@ body {
 
 /***NAV BAR STARTS HERE***/
 /* modified navbar color*/
+nav {
+    z-index: 2;
+}
+
 .navbar {
     background-color: var(--primary-gray);
     padding: 0.5% !important;
@@ -34,4 +38,23 @@ nav a.nav-link {
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
     border-top: 0.1875rem solid var(--primary-pink);
+}
+
+.navbar-brand {
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
+
+/***HEADER STARTS HERE***/
+
+img.banner {
+    width: -webkit-fill-available !important;
+}
+
+/*particles in header*/
+.tsparticles-canvas-el {
+    position: absolute;
+    height: 90vh;
+    width: 90vw;
+    z-index: 1;
 }
