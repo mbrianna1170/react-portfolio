@@ -1,20 +1,28 @@
-import React from 'react';
+import React from "react";
 import profilePic from "../../assets/images/profile-image2.png";
 
 function About() {
   return (
-   <div className="row">
-     <div className="column-1">
-       <figure>
-       <img src={profilePic} className="profile-picture" alt="profile of person" />
-       </figure>
-     </div>
-     <div className="column-2">
-       <h2>Hello There</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer malesuada nunc vel risus commodo viverra. Urna condimentum mattis pellentesque id nibh tortor. Risus in hendrerit gravida rutrum. Volutpat commodo sed egestas egestas. Nunc vel risus commodo viverra maecenas accumsan lacus vel. Integer feugiat scelerisque varius morbi. Dui nunc mattis enim ut tellus. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Dolor sit amet consectetur adipiscing elit.</p>
-       <button className="contact-btn">Let's Talk</button>
-     </div>
-   </div>
+
+    <div className="container py-5">
+      <div className="row">
+        <div className="col-lg-6 col-xm-12">
+          <img src={profilePic} alt="profile of person"/>
+        </div>
+        <div className="col-lg-6 col-xm-12">
+          <h2>Hello Everybody</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        </div>
+      </div>
+    </div>
   );
 }
 

@@ -1,10 +1,12 @@
 import React from "react";
 import "./test.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import About from "./components/About";
+import Particles from "react-particles-js";
+
 import Nav from "./components/Nav";
 import Header from "./components/Header";
-import Particles from "react-particles-js";
+import About from "./components/About";
+
 // import Portfolio from "./components/Portfolio";
 
 function App() {
@@ -40,8 +42,7 @@ function App() {
       <Nav></Nav>
       <Header></Header>
       <main>
-        {/* <Portfolio></Portfolio>
-        <About></About> */}
+        <About></About>
       </main>
     </div>
   );
