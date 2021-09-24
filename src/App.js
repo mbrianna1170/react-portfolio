@@ -13,29 +13,57 @@ function App() {
   return (
     <div>
       <Particles
+      className="particles-board"
       params={{
-        particles: {
-          number: {
-            value: 30,
-            density: {
-              enable: true,
-              value_area: 900
-            }
-          },
-          links: {
-            color: "#2c2b30",
-            opacity: .75,
-            width: 0.5,
-          },
-          shape: {
-            type: "star",
-            stroke: {
-              width: 6,
-              opacity: 8,
-              color: "#fcd250"
-            }
-          }
-        }
+        "particles": {
+	        "number": {
+	            "value": 160,
+	            "density": {
+	                "enable": false
+	            }
+	        },
+	        "size": {
+	            "value": 5,
+	            "random": true,
+	            "anim": {
+	                "speed": 4,
+	                "size_min": 0.3
+	            }
+	        },
+	        "line_linked": {
+	            "enable": false
+	        },
+	        "move": {
+	            "random": true,
+	            "speed": 1,
+	            "direction": "top",
+	            "out_mode": "out"
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onhover": {
+	                "enable": true,
+	                "mode": "bubble"
+	            },
+	            "onclick": {
+	                "enable": true,
+	                "mode": "repulse"
+	            }
+	        },
+	        "modes": {
+	            "bubble": {
+	                "distance": 250,
+	                "duration": 2,
+	                "size": 0.75,
+	                "opacity": 1
+	            },
+	            "repulse": {
+	                "distance": 400,
+	                "duration": 4
+	            }
+	        }
+	    }
       }}>
 
       </Particles>

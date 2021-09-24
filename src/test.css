@@ -14,8 +14,8 @@ body {
     --secondary-black: rgba(225, 225, 225, 0);
 }
 
-/***NAV BAR STARTS HERE***/
-/* modified navbar color*/
+/**** NAVBAR SECTION ****/
+
 nav {
     z-index: 2;
 }
@@ -45,7 +45,7 @@ nav a.nav-link {
     margin-right: .25rem;
 }
 
-/***HEADER STARTS HERE***/
+/**** HEADER SECTION ****/
 
 img.banner {
     width: -webkit-fill-available !important;
@@ -54,7 +54,67 @@ img.banner {
 /*particles in header*/
 .tsparticles-canvas-el {
     position: absolute;
-    height: 90vh;
-    width: 90vw;
+    height: 60vh;
+    width: 60vw;
     z-index: 1;
+}
+
+@media(max-width: 768px) {
+    .particles-board {
+        display: none;
+    }
+}
+
+/**** ABOUT ME SECTION ****/
+
+main {
+    background: var(--primary-blue) !important;
+}
+
+.profilepic {
+    width: 80%;
+    border-radius: 50%;
+    padding: .3rem;
+    border: 1 px solid --primary-yellow;
+}
+
+h2.about-heading {
+    padding-bottom: 2%;
+}
+
+p {
+    font-size: 20px;
+}
+
+div#column2 {
+    padding-top: 8%;
+}
+
+@media(max-width: 768px) {
+    .profilepic {
+        width: 50%
+    }
+}
+
+@media(max-width: 768px) {
+    .photo-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .about-heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .about-intro {
+        text-align: center;
+        font-size: 15px;
+    }
 }
