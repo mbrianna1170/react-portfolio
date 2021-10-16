@@ -136,7 +136,7 @@ div#column2 {
 .portfolio-image {
   width: 25rem !important;
   padding: .15rem;
-  border: solid var(--primary-blue);
+  border: solid 5px var(--primary-blue);
 }
 
 .portfolio-image-box {
@@ -155,6 +155,18 @@ div#column2 {
 
 .figure {
     padding: .75rem;
+}
+
+p.portfolio-text {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: .75rem;
+}
+
+a {
+    color: #2e8ed8 !important;
+    font-size: 14px;
+    font-weight: 200;
 }
 
 @media(max-width: 768px) {
