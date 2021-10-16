@@ -130,7 +130,7 @@ div#column2 {
 
 .portfolio-wrapper {
   background: var(--primary-gray);
-  padding: 1rem 0;
+  padding: 1rem 0 5rem 0;
 }
 
 .portfolio-image {
@@ -185,4 +185,40 @@ p.portfolio-text {
     .portfolio-image#libro-fy {
         height: 24vh;
     }
+}
+
+/***** FOOTER *****/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 8px;
+    background-color:var(--primary-gray);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+.contact-btn {
+    background-color: var(--primary-yellow);
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    padding: 8px;
+    color: rgb(6, 30, 54);
+    font-weight: 600;
+}
+
+.contact-button:hover {
+    background-color: rgb(242, 246, 248, 0.76);
+}
+
+.contact {
+    padding-right: inherit;
+}
+
+a.social-icon {
+    margin-right: .25em;
 }
