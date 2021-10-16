@@ -163,7 +163,7 @@ p.portfolio-text {
     padding-top: .75rem;
 }
 
-a {
+.figure a {
     color: #2e8ed8 !important;
     font-size: 14px;
     font-weight: 200;
@@ -179,4 +179,10 @@ a {
   .portfolio-image {
     width: 14rem !important;
   }
+}
+
+@media (min-width: 768px) {
+    .portfolio-image#libro-fy {
+        height: 24vh;
+    }
 }
