@@ -1,120 +1,160 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
-    font-family: "Inter", sans-serif !important;
+  font-family: "Inter", sans-serif !important;
 }
 
 :root {
-    --primary-black: #2c2b30;
-    --primary-gray: #ececec;
-    --primary-blue: #5da2d5;
-    --primary-yellow: #fcd250;
-    --primary-pink: #f78888;
-    --secondary-blue: #90ccf4;
-    --secondary-black: rgba(225, 225, 225, 0);
+  --primary-black: #2a2a2c;
+  --primary-gray: #ececec;
+  --primary-blue: #5da2d5;
+  --primary-yellow: #fcd250;
+  --primary-pink: #f78888;
+  --secondary-blue: #90ccf4;
+  --secondary-black: rgba(225, 225, 225, 0);
 }
 
 /**** NAVBAR SECTION ****/
 
 nav {
-    z-index: 2;
+  z-index: 2;
 }
 
 .navbar {
-    background-color: var(--primary-gray);
-    padding: 0.5% !important;
+  background-color: var(--primary-gray);
+  padding: 0.5% !important;
 }
 
 /*navbar links*/
 nav a.nav-link {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .navbar-nav > li > a {
-    margin-left: 0.75;
-    margin-right: 0.75;
-    color: var(--primary-black) !important;
+  margin-left: 0.75;
+  margin-right: 0.75;
+  color: var(--primary-black) !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-    border-top: 0.1875rem solid var(--primary-pink);
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-pink);
 }
 
 .navbar-brand {
-    margin-left: .25rem;
-    margin-right: .25rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 /**** HEADER SECTION ****/
 
 img.banner {
-    width: -webkit-fill-available !important;
+  width: -webkit-fill-available !important;
 }
 
 /*particles in header*/
 .tsparticles-canvas-el {
-    position: absolute;
-    height: 60vh;
-    width: 60vw;
-    z-index: 1;
+  position: absolute;
+  height: 60vh;
+  width: 60vw;
+  z-index: 1;
 }
 
-@media(max-width: 768px) {
-    .particles-board {
-        display: none;
-    }
+@media (max-width: 768px) {
+  .particles-board {
+    display: none;
+  }
 }
 
 /**** ABOUT ME SECTION ****/
 
 main {
-    background: var(--primary-blue) !important;
+  background: var(--primary-blue) !important;
 }
 
 .profilepic {
-    width: 80%;
-    border-radius: 50%;
-    padding: .3rem;
-    border: 1 px solid --primary-yellow;
+  width: 80%;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1 px solid --primary-yellow;
 }
 
 h2.about-heading {
-    padding-bottom: 2%;
+  padding-bottom: 2%;
+  font-weight: bold;
 }
 
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 div#column2 {
-    padding-top: 8%;
+  padding-top: 8%;
 }
 
-@media(max-width: 768px) {
-    .profilepic {
-        width: 50%
-    }
+@media (max-width: 768px) {
+  .profilepic {
+    width: 50%;
+  }
 }
 
-@media(max-width: 768px) {
-    .photo-wrap {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@media (max-width: 768px) {
+  .photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-@media(max-width: 768px) {
-    .about-heading {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@media (max-width: 768px) {
+  .about-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-@media(max-width: 768px) {
-    .about-intro {
-        text-align: center;
-        font-size: 15px;
-    }
+@media (max-width: 768px) {
+  .about-intro {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+/***** PORTFOLIO *****/
+
+#heading {
+  font-weight: bold;
+  color: black;
+}
+
+.portfolio-wrapper {
+  background: var(--primary-gray);
+  padding: 1rem 0;
+}
+
+.portfolio-image {
+  width: 20rem !important;
+  margin: 0.75rem;
+  border: solid black;
+}
+
+.portfolio-image-box {
+  position: relative !important;
+  margin: 1rem;
+}
+
+.py-5 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+
+.image-container {
+    text-align: -webkit-center;
+}
+
+@media (max-width: 280px) {
+  .portfolio-image {
+    width: 14rem !important;
+  }
 }

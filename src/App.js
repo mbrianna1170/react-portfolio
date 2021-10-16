@@ -6,6 +6,7 @@ import Particles from "react-particles-js";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import About from "./components/About";
+import Portfolio from "./components/Portfolio";
 
 // import Portfolio from "./components/Portfolio";
 
@@ -67,10 +68,11 @@ function App() {
       }}>
 
       </Particles>
-      <Nav></Nav>
-      <Header></Header>
+      <Nav/>
+      <Header/>
       <main>
-        <About></About>
+        <About/>
+		<Portfolio/>
       </main>
     </div>
   );

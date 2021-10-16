@@ -1,20 +1,26 @@
 import React from "react";
-import photo from "../../assets/images/projects/HealthyCraves.png";
+import healthyCraves from "../../assets/images/projects/healthycraves.png";
+import freeMaps from "../../assets/images/projects/freemaps.png";
+
 
 function Portfolio() {
-    return (
-        <section>
-            <h1>Project Name</h1>
-            <p>Description</p>
-            <div className="flex-row">
-          <img
-            src={photo}
-            alt="Project Example"
-            className="img-thumbnail mx-1" 
-          />
+
+  return (
+    <div className="portfolio-wrapper">
+      <div className="image-container">
+        <h1 className="text-center py-5" id="heading">Portfolio</h1>
+          <img className="portfolio-image" src={freeMaps} alt="" />
+          {/* - */}
+          <img className="portfolio-image" src={freeMaps} alt="" />
+          {/* - */}
+          <img className="portfolio-image" src={freeMaps} alt="" />
+          {/* - */}
+          <img className="portfolio-image" src={freeMaps} alt="" />
+        </div>
       </div>
-        </section>
-    );
+
+  )
 }
 
 export default Portfolio;
+
