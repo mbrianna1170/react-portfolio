@@ -134,9 +134,9 @@ div#column2 {
 }
 
 .portfolio-image {
-  width: 20rem !important;
-  margin: 0.75rem;
-  border: solid black;
+  width: 25rem !important;
+  padding: .15rem;
+  border: solid var(--primary-blue);
 }
 
 .portfolio-image-box {
@@ -151,6 +151,16 @@ div#column2 {
 
 .image-container {
     text-align: -webkit-center;
+}
+
+.figure {
+    padding: .75rem;
+}
+
+@media(max-width: 768px) {
+    .portfolio-image {
+        width: 20rem !important;
+    }
 }
 
 @media (max-width: 280px) {
