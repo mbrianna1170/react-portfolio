@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 
 function Nav() {
@@ -15,16 +16,16 @@ function Nav() {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#">About Me <span class="sr-only"></span></a>
+      <Link to="/" className="nav-link">About Me <span className="sr-only"></span></Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Portfolio</a>
+      <Link to="/portfolio" className="nav-link">Portfolio <span className="sr-only"></span></Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Contact</a>
+      <Link to="/contact" className="nav-link">Contact<span className="sr-only"></span></Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Resume</a>
+      <Link to="/resume" className="nav-link">Resume <span className="sr-only"></span></Link>
       </li>
     </ul>
   </div>

@@ -68,7 +68,11 @@ img.banner {
 
 /**** ABOUT ME SECTION ****/
 
-main {
+.app-container {
+    background: var(--primary-blue);
+}
+
+#aboutMeContainer {
   background: var(--primary-blue) !important;
 }
 
@@ -145,8 +149,8 @@ div#column2 {
 }
 
 .py-5 {
-    padding-top: 1.5rem!important;
-    padding-bottom: 1.5rem!important;
+    padding-top: 3rem!important;
+    padding-bottom: 5rem!important;
 }
 
 .image-container {
@@ -185,6 +189,23 @@ p.portfolio-text {
     .portfolio-image#libro-fy {
         height: 24vh;
     }
+}
+
+/***** RESUME *****/
+
+.skillBox {
+    display: inline-block;
+    padding: 5rem;
+}
+
+.skillBox li {
+    text-align: left;
+}
+
+.skillBox h1 {
+    font-weight: bold;
+    padding-bottom: .5rem;
+    text-align: center;
 }
 
 /***** FOOTER *****/

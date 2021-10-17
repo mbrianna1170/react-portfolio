@@ -1,19 +1,24 @@
+// dependencies
 import React from "react";
+import Particles from "react-particles-js";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+// styling
 import "./test.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Particles from "react-particles-js";
 
+// components
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import Resume from './components/Resume';
 import Footer from "./components/Footer";
-
-// import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <div>
+	<Router>
+    <div className="app-container">
       <Particles
       className="particles-board"
       params={{
@@ -71,12 +76,14 @@ function App() {
       </Particles>
       <Nav/>
       <Header/>
-      <main>
-        <About/>
-		<Portfolio/>
+	  <Switch>
+        <Route exact path="/" component={About}/>
+		<Route exact path ="/portfolio" component={Portfolio}/>
+		<Route exact path ='/resume' component={Resume}/>
+		</Switch>
 		<Footer/>
-      </main>
     </div>
+	</Router>  
   );
 }
 
