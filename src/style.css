@@ -193,10 +193,6 @@ p.portfolio-text {
 
 /***** RESUME *****/
 
-.skills {
-  height: 50vh;
-}
-
 .skillBox {
     display: inline-block;
     padding: 5rem;
@@ -210,49 +206,6 @@ p.portfolio-text {
     font-weight: bold;
     padding-bottom: .5rem;
     text-align: center;
-}
-
-.skillBox ul {
-  list-style: none;
-}
-
-/***** Form *****/
-
-.contact-form {
-  height: 30vh;
-  text-align: -webkit-center;
-}
-
-@media (max-width: 768px) {
-  .contact-form {
-    height: 100vh;
-  }
-  .card {
-    width: 80% !important;
-  }
-}
-
-.contact-form h1 {
-  text-align: center;
-  font-weight: bold;
-  padding: 2rem;
-}
-
-.card {
-  border: 2px solid var(--primary-gray) !important;
-  background: var(--primary-blue) !important;
-  width: 40%;
-}
-
-.card h2 {
-  padding-top: .75rem;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.card a, p {
-  font-weight: 600;
-  font-size: 16px;
 }
 
 /***** FOOTER *****/
@@ -277,7 +230,6 @@ p.portfolio-text {
     padding: 8px;
     color: rgb(6, 30, 54);
     font-weight: 600;
-    text-decoration: none;
 }
 
 .contact-button:hover {

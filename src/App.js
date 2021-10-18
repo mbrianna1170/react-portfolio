@@ -13,6 +13,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Resume from './components/Resume';
+import Contact from './components/Contact'
 import Footer from "./components/Footer";
 
 function App() {
@@ -77,8 +78,9 @@ function App() {
       <Nav/>
       <Header/>
 	  <Switch>
-        <Route exact path="/" component={About}/>
+        <Route exact path="/react-portfolio" component={About}/>
 		<Route exact path ="/portfolio" component={Portfolio}/>
+		<Route exact path ='/contact' component={Contact}/>
 		<Route exact path ='/resume' component={Resume}/>
 		</Switch>
 		<Footer/>

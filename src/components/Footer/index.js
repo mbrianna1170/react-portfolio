@@ -1,11 +1,12 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="contact">
-        <button className="contact-btn" id="contact-button">Contact Me</button>
+        <Link to="/contact" className="contact-btn" id="contact-button">Contact Me</Link>
       </div>
       <div className="icon-logos">
         <SocialIcon url="https://github.com/mbrianna1170" style={{ height: 35, width: 35 }} />

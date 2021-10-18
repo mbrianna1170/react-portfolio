@@ -16,7 +16,7 @@ function Nav() {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-      <Link to="/" className="nav-link">About Me <span className="sr-only"></span></Link>
+      <Link to="/react-portfolio" className="nav-link">About Me <span className="sr-only"></span></Link>
       </li>
       <li className="nav-item">
       <Link to="/portfolio" className="nav-link">Portfolio <span className="sr-only"></span></Link>
