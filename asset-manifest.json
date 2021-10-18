@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.cc6ab3bb.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c478f90d.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c478f90d.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.0331901c.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.8ad89640.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.8ad89640.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.1fc42f76.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.1fc42f76.js.map",
     "static/css/2.f2512455.chunk.css": "/react-portfolio/static/css/2.f2512455.chunk.css",
-    "static/js/2.f7f83393.chunk.js": "/react-portfolio/static/js/2.f7f83393.chunk.js",
-    "static/js/2.f7f83393.chunk.js.map": "/react-portfolio/static/js/2.f7f83393.chunk.js.map",
+    "static/js/2.0203a03d.chunk.js": "/react-portfolio/static/js/2.0203a03d.chunk.js",
+    "static/js/2.0203a03d.chunk.js.map": "/react-portfolio/static/js/2.0203a03d.chunk.js.map",
     "static/js/3.4dffe618.chunk.js": "/react-portfolio/static/js/3.4dffe618.chunk.js",
     "static/js/3.4dffe618.chunk.js.map": "/react-portfolio/static/js/3.4dffe618.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.f2512455.chunk.css.map": "/react-portfolio/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.cc6ab3bb.chunk.css.map": "/react-portfolio/static/css/main.cc6ab3bb.chunk.css.map",
-    "static/js/2.f7f83393.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f7f83393.chunk.js.LICENSE.txt",
+    "static/css/main.0331901c.chunk.css.map": "/react-portfolio/static/css/main.0331901c.chunk.css.map",
+    "static/js/2.0203a03d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.0203a03d.chunk.js.LICENSE.txt",
     "static/media/banner.535eeab1.png": "/react-portfolio/static/media/banner.535eeab1.png",
     "static/media/freemaps.a07f3365.png": "/react-portfolio/static/media/freemaps.a07f3365.png",
     "static/media/healthycraves.4d241101.png": "/react-portfolio/static/media/healthycraves.4d241101.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.1fc42f76.js",
     "static/css/2.f2512455.chunk.css",
-    "static/js/2.f7f83393.chunk.js",
-    "static/css/main.cc6ab3bb.chunk.css",
-    "static/js/main.c478f90d.chunk.js"
+    "static/js/2.0203a03d.chunk.js",
+    "static/css/main.0331901c.chunk.css",
+    "static/js/main.8ad89640.chunk.js"
   ]
 }
